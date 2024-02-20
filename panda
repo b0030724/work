@@ -1,0 +1,7 @@
+import pandas as pd
+
+a = ['a', 'b', 'c']
+
+myvar = pd.Series(a, index = ["x", "y", "z"])
+
+print(myvar)
